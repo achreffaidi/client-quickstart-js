@@ -8,7 +8,7 @@
   var device;
 
   log('Requesting Capability Token...');
-  $.getJSON('http://localhost:3000/api/generate/token')
+  $.getJSON('https://twilio0server.herokuapp.com/api/generate/token')
     .then(function (data) {
       console.log(data);
       log('Got a token.');
